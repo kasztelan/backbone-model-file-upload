@@ -49,7 +49,7 @@
         // Flatten Attributes reapplying File Object
         var formAttrs = _.clone( this.attributes ),
             fileAttr = this.attributes[ this.fileAttribute ];
-        formAttrs = this._flatten( formAttrs );
+        //formAttrs = this._flatten( formAttrs );
         formAttrs[ this.fileAttribute ] = fileAttr;
 
         // Converting Attributes to Form Data
